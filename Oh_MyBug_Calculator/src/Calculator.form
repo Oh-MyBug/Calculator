@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Calculator">
+  <grid id="27dc6" binding="panel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-1"/>
+      <preferredSize width="400" height="400"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="c59ca" binding="screen" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="0" vgap="0">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="North"/>
+        <properties>
+          <background color="-1"/>
+          <enabled value="false"/>
+          <foreground color="-16777216"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="91bcd" class="javax.swing.JTextField" binding="textField">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="100"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <columns value="0"/>
+              <editable value="false"/>
+              <enabled value="true"/>
+              <font size="24"/>
+              <horizontalAlignment value="4"/>
+              <selectionColor color="-1"/>
+              <text value="0"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="cad50" binding="key" layout-manager="GridLayoutManager" row-count="5" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="0" vgap="0">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="Center"/>
+        <properties>
+          <background color="-1"/>
+          <foreground color="-16777216"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="d8e8a" class="javax.swing.JButton" binding="backspace">
+            <constraints>
+              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <alignmentY value="0.0"/>
+              <background color="-1"/>
+              <font name="Consolas" size="11" style="1"/>
+              <foreground color="-16777216"/>
+              <text value="Backspace"/>
+            </properties>
+          </component>
+          <component id="46799" class="javax.swing.JButton" binding="time">
+            <constraints>
+              <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <alignmentY value="0.0"/>
+              <background color="-1"/>
+              <font name="Consolas" size="11" style="1"/>
+              <foreground color="-16777216"/>
+              <text value="×"/>
+            </properties>
+          </component>
+          <component id="de430" class="javax.swing.JButton" binding="four">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <alignmentY value="0.0"/>
+              <background color="-1"/>
+              <font name="Consolas" size="11" style="1"/>
+              <foreground color="-16777216"/>
+              <text value="4"/>
+            </properties>
+          </component>
+          <component id="7f6e6" class="javax.swing.JButton" binding="left">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <alignmentY value="0.0"/>
+              <background color="-1"/>
+              <font name="Consolas" size="11" style="1"/>
+              <foreground color="-16777216"/>
+              <text value="("/>
+            </properties>
+          </component>
+          <component id="e6722" class="javax.swing.JButton" binding="right">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <alignmentY value="0.0"/>
+              <background color="-1"/>
+              <font name="Consolas" size="11" style="1"/>
+              <foreground color="-16777216"/>
+              <text value=")"/>
+            </properties>
+          </component>
+          <component id="2b05" class="javax.swing.JButton" binding="eight">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <alignmentY value="0.0"/>
+              <background color="-1"/>
+              <font name="Consolas" size="11" style="1"/>
+              <foreground color="-16777216"/>
+              <text value="8"/>
+            </properties>
+          </component>
+          <component id="330ac" class="javax.swing.JButton" binding="nine">
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <alignmentY value="0.0"/>
+              <background color="-1"/>
+              <font name="Consolas" size="11" style="1"/>
+              <foreground color="-16777216"/>
+              <text value="9"/>
+            </properties>
+          </component>
+          <component id="c77dd" class="javax.swing.JButton" binding="five">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <alignmentY value="0.0"/>
+              <background color="-1"/>
+              <font name="Consolas" size="11" style="1"/>
+              <foreground color="-16777216"/>
+              <text value="5"/>
+            </properties>
+          </component>
+          <component id="427a0" class="javax.swing.JButton" binding="six">
+            <constraints>
+              <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <alignmentY value="0.0"/>
+              <background color="-1"/>
+              <font name="Consolas" size="11" style="1"/>
+              <foreground color="-16777216"/>
+              <text value="6"/>
+            </properties>
+          </component>
+          <component id="cc02d" class="javax.swing.JButton" binding="minus">
+            <constraints>
+              <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <alignmentY value="0.0"/>
+              <background color="-1"/>
+              <font name="Consolas" size="11" style="1"/>
+              <foreground color="-16777216"/>
+              <text value="-"/>
+            </properties>
+          </component>
+          <component id="f5718" class="javax.swing.JButton" binding="one">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <alignmentY value="0.0"/>
+              <background color="-1"/>
+              <font name="Consolas" size="11" style="1"/>
+              <foreground color="-16777216"/>
+              <text value="1"/>
+            </properties>
+          </component>
+          <component id="81ae5" class="javax.swing.JButton" binding="two">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <alignmentY value="0.0"/>
+              <background color="-1"/>
+              <font name="Consolas" size="11" style="1"/>
+              <foreground color="-16777216"/>
+              <text value="2"/>
+            </properties>
+          </component>
+          <component id="4383c" class="javax.swing.JButton" binding="three">
+            <constraints>
+              <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <alignmentY value="0.0"/>
+              <background color="-1"/>
+              <font name="Consolas" size="11" style="1"/>
+              <foreground color="-16777216"/>
+              <text value="3"/>
+            </properties>
+          </component>
+          <component id="67155" class="javax.swing.JButton" binding="plus">
+            <constraints>
+              <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <alignmentY value="0.0"/>
+              <background color="-1"/>
+              <font name="Consolas" size="11" style="1"/>
+              <foreground color="-16777216"/>
+              <text value="+"/>
+            </properties>
+          </component>
+          <component id="e00e3" class="javax.swing.JButton" binding="clear">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <alignmentY value="0.0"/>
+              <background color="-1"/>
+              <font name="Consolas" size="11" style="1"/>
+              <foreground color="-16777216"/>
+              <text value="AC"/>
+            </properties>
+          </component>
+          <component id="a2004" class="javax.swing.JButton" binding="seven">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <alignmentY value="0.0"/>
+              <background color="-1"/>
+              <font name="Consolas" size="11" style="1"/>
+              <foreground color="-16777216"/>
+              <text value="7"/>
+            </properties>
+          </component>
+          <component id="337d" class="javax.swing.JButton" binding="dot">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <alignmentY value="0.0"/>
+              <background color="-1"/>
+              <font name="Consolas" size="11" style="1"/>
+              <foreground color="-16777216"/>
+              <text value="."/>
+            </properties>
+          </component>
+          <component id="863e2" class="javax.swing.JButton" binding="zero">
+            <constraints>
+              <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <alignmentY value="0.0"/>
+              <background color="-1"/>
+              <font name="Consolas" size="11" style="1"/>
+              <foreground color="-16777216"/>
+              <text value="0"/>
+            </properties>
+          </component>
+          <component id="a3984" class="javax.swing.JButton" binding="devide">
+            <constraints>
+              <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <alignmentY value="0.0"/>
+              <background color="-1"/>
+              <font name="Consolas" size="11" style="1"/>
+              <foreground color="-16777216"/>
+              <text value="÷"/>
+            </properties>
+          </component>
+          <component id="bf8e1" class="javax.swing.JButton" binding="equal">
+            <constraints>
+              <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <alignmentY value="0.0"/>
+              <background color="-1"/>
+              <font name="Consolas" size="11" style="1"/>
+              <foreground color="-16777216"/>
+              <text value="="/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
